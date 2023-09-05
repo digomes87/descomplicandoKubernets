@@ -47,3 +47,6 @@ Quando terminar, você pode deletar o cluster:
 
 ```bash
 kind delete cluster --name nome-do-seu-cluster
+
+
+To be continue ....
