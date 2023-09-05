@@ -12,7 +12,6 @@
 ```bash
 kind create cluster --name nome-do-seu-cluster
 
-
 ### 2. Verificar Clusters Existentes
 
 ```bash
