@@ -19,12 +19,6 @@ kind create cluster --name nome-do-seu-cluster
 kind get clusters
 
 
-### 2. Verificar Clusters Existentes
-
-```bash
-kind get clusters
-
-
 ### 3. Configurar kubectl
 O kind configura automaticamente kubectl (a ferramenta de linha de comando do Kubernetes) 
 para apontar para o cluster que você acabou de criar.
