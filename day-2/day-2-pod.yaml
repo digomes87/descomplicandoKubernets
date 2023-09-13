@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: day-2-pod
+spec:
+  containers:
+  
+  - name: ubuntu
+    image: ubuntu:latest
+    args:
+    - sleep
+    - "1800"
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "2"
+      requests:
+        memory: "54Mi"
+        cpu: "1"
+  
+  - name: nginx
+    image: nginx:latest
+
