@@ -1,0 +1,28 @@
+KubeCity:  # Este seria o nosso "Cluster"
+  nome: KubeCity
+  administracao: MasterNode  # Em Kubernetes, seria o Node Master ou Control Plane
+  infraestrutura:
+    ruas: []
+    avenidas: []
+    eletricidade: true
+    agua: true
+  edificios:  # Estes seriam os "Nós"
+    - nome: EdificioA  # Um nó específico
+      altura: 10 andares  # Isto é apenas ilustrativo, em Kubernetes seria a capacidade do nó, como CPU e memória
+      apartamentos:  # Estes seriam os "Pods"
+        - numero: 101
+          comodos:  # Os "Contêineres"
+            - sala
+            - quarto
+            - cozinha
+        - numero: 102
+          comodos:
+            - sala
+    - nome: EdificioB
+      altura: 20 andares
+      apartamentos:
+        - numero: 201
+          comodos:
+            - sala
+            - quarto
+

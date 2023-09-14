@@ -1,0 +1,16 @@
+Cluster = Cidade
+Imagine uma cidade chamada "KubeCity". Esta cidade não é apenas um pedaço de terra, mas todo o ecossistema urbano que a compõe: ruas, avenidas, edifícios, parques, infraestrutura elétrica e hidráulica, e assim por diante.
+
+A "KubeCity" foi planejada para acomodar muitos habitantes e possui um sistema de administração central que regula como os edifícios são construídos, onde são alocados, como a energia e a água são distribuídas etc.
+
+Nó (Node) = Edifício
+Dentro de "KubeCity", existem vários edifícios. Cada edifício pode ser considerado um nó. Cada edifício tem sua própria infraestrutura: um sistema elétrico, um sistema de encanamento, elevadores, escadas e vários apartamentos.
+
+Os edifícios (nós) podem ter tamanhos e capacidades diferentes, assim como em Kubernetes, onde diferentes nós podem ter diferentes capacidades de CPU, memória, armazenamento, etc.
+
+Pod = Apartamento
+Agora, dentro de cada edifício, há muitos apartamentos. Em Kubernetes, um apartamento pode ser comparado a um pod.
+
+Cada apartamento (pod) pode ter um ou mais cômodos. Em Kubernetes, esses "cômodos" são os contêineres. Portanto, um apartamento pode ter, por exemplo, apenas uma sala (um contêiner) ou pode ter uma sala, um quarto e uma cozinha (três contêineres). Independentemente do número de cômodos, eles compartilham o mesmo endereço (IP) porque estão no mesmo apartamento.
+
+Cada apartamento tem uma entrada principal, e se você quiser visitar qualquer cômodo (contêiner), você passa por essa entrada. Em Kubernetes, isso seria como se comunicar com um contêiner em um pod através do IP do pod.
